@@ -1,1 +1,177 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karim Hisham</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <main class="max-w-4xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-6">
+
+        <aside class="md:col-span-1 text-left">
+            <img src="imgs/profile_img.jpg" alt="Karim Hisham" class="rounded-full w-32 h-32 mx-auto mb-4" />
+            <h2 class="text-lg font-semibold"><b>Karim Hisham</b></h2>
+            <p class="text-sm text-gray-600">Machine Learning Engineer</p>
+            <br>
+            <div class="text-sm text-gray-600 mt-2">
+
+                <a href="https://maps.app.goo.gl/6hfAaACfycHG5jXr5" target="_blank" rel="noopener noreferrer"
+                    class="flex items-center space-x-2 hover:text-sky-800">
+                    <span class="[&>svg]:h-4 [&>svg]:w-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path fill-rule="evenodd"
+                                d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                    </span>
+                    <span>Cairo, Egypt</span>
+                </a>
+
+                <a href="mailto:khm.karimhisham@gmail.com" rel="noopener noreferrer"
+                    class="flex items-center space-x-2 hover:text-sky-800">
+                    <span class="[&>svg]:h-4 [&>svg]:w-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path
+                                d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
+                            <path
+                                d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
+                        </svg>
+
+                    </span>
+                    <span>Email</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/karimhisham/" target="_blank" rel="noopener noreferrer"
+                    class="flex items-center space-x-2 hover:text-sky-800">
+                    <span class="[&>svg]:h-4 [&>svg]:w-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+
+                            <path
+                                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                        </svg>
+                    </span>
+                    <span>LinkedIn</span>
+                </a>
+
+                <a href="https://github.com/khmkarimhisham" target="_blank" rel="noopener noreferrer"
+                    class="flex items-center space-x-2 hover:text-sky-800">
+                    <span class="[&>svg]:h-4 [&>svg]:w-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 496 512">
+                            <path
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg>
+                    </span>
+                    <span>Github</span>
+                </a>
+
+            </div>
+        </aside>
+
+        <section class="md:col-span-3 space-y-4">
+            <p>Hello!</p>
+            <p>
+                My name is Karim Hisham, a Machine Learning Specialist certified by Amazon Web Services (AWS). I have a
+                Computer Science degree from Future Academy, where I graduated with a commendable GPA of 3.45.
+                Post-graduation, I honed my skills through rigorous six-month training at AWS, earning certification as
+                a Machine Learning Specialist. Currently, I am a Python Developer and Machine Learning Engineer at Easy
+                Trademarks, where I apply my technical knowledge to solve complex problems.
+
+                My proficiency encompasses a broad spectrum of machine learning and deep learning techniques, and I am
+                adept in utilizing libraries such as scikit-learn, TensorFlow, and Keras. Moreover, my experience with
+                AWS cloud services enhances my capability to implement scalable machine learning solutions.
+
+                The study of computer science has instilled in me a robust set of skills, including analytical
+                problem-solving, critical thinking, advanced programming, and research. I am driven by the belief that
+                we must all contribute to a progressive future - a legacy of innovation and responsibility that we can
+                proudly bequeath to subsequent generations. I am convinced that my background aligns with the needs of
+                your company, and I am enthusiastic about the possibility of contributing to your success.
+            </p>
+        </section>
+
+        <br>
+
+        <section class="md:col-span-4 space-y-4">
+            <h3 class="text-xl font-bold mb-2 text-sky-800">Experience</h3>
+            <div class="space-y-4">
+                <div class="flex items-start space-x-4">
+                    <img src="imgs/easytrademarks_logo.jpeg" alt="Easy Trademarks Logo"
+                        class="w-12 h-12 rounded bg-white border p-1 object-contain" />
+                    <div class="flex-1">
+                        <div class="flex items-center justify-between">
+                            <h4 class="font-semibold text-gray-900">Machine Learning Engineer</h4>
+                            <span class="text-sm text-gray-600 whitespace-nowrap ml-4">Jun 2024 - Present</span>
+                        </div>
+                        <span class="text-sm text-gray-600">Easy Trademarks</span>
+                        <p class="text-gray-700 text-sm mt-1">
+                            Designing and deploying machine learning models for trademark data analysis. Leveraging AWS
+                            cloud services for scalable solutions. Collaborating with cross-functional teams to deliver
+                            production-ready ML applications.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <img src="imgs/nagwa_logo.png" alt="AWS Logo"
+                        class="w-12 h-12 rounded bg-white border p-1 object-contain" />
+                    <div class="flex-1">
+                        <div class="flex items-center justify-between">
+                            <h4 class="font-semibold text-gray-900">Python Developer | ML Engineer</h4>
+                            <span class="text-sm text-gray-600 whitespace-nowrap ml-4">Oct 2021 - Jun 2024</span>
+                        </div>
+                        <span class="text-sm text-gray-600">Nagwa</span>
+                        <p class="text-gray-700 text-sm mt-1">
+                            Developed and maintained Python applications for educational platforms. Implemented machine
+                            learning algorithms to enhance user experience and content personalization. Collaborated
+                            with
+                            data scientists to integrate ML models into production systems.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <img src="imgs/aws_logo.jpeg" alt="Future Academy Logo"
+                        class="w-12 h-12 rounded bg-white border p-1 object-contain" />
+                    <div class="flex-1">
+                        <div class="flex items-center justify-between">
+                            <h4 class="font-semibold text-gray-900">Machine Learning Intern</h4>
+                            <span class="text-sm text-gray-600 whitespace-nowrap ml-4">Jan 2021 - Jun 2021</span>
+                        </div>
+                        <span class="text-sm text-gray-600">Amazon Web Services (AWS)</span>
+                        <p class="text-gray-700 text-sm mt-1">
+                            Participated in a six-month intensive training program focused on machine learning and cloud
+                            technologies. Gained hands-on experience with AWS services, including SageMaker, Lambda, and
+                            EC2.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="md:col-span-4 space-y-4">
+            <h3 class="text-xl font-bold mb-2 text-sky-800">Education</h3>
+            <div class="space-y-4">
+                <div class="flex items-start space-x-4">
+                    <img src="imgs/future_academy_logo.png" alt="Easy Trademarks Logo"
+                        class="w-12 h-12 rounded bg-white border p-1 object-contain" />
+                    <div class="flex-1">
+                        <div class="flex items-center justify-between">
+                            <h4 class="font-semibold text-gray-900">Bachelor of Computer Science</h4>
+                            <span class="text-sm text-gray-600 whitespace-nowrap ml-4">Sep 2016 - May 2020</span>
+                        </div>
+                        <span class="text-sm text-gray-600">Future Academy</span>
+                        <p class="text-gray-700 text-sm mt-1">
+                            Graduated with a GPA of 3.45. Built a strong foundation in programming, algorithms, and data
+                            structures.
+                        </p>
+                    </div>
+                </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
